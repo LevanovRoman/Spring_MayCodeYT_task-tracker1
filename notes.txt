@@ -1,0 +1,36 @@
+
+Project
+-id (long)
+-name (string)
+-createdAt (time)
+-taskStates (TaskState[] array)
+
+Task State
+-id (long)
+-name (string)
+-ordinal (long)
+-createdAt (time)
+-tasks (Task[] array)
+
+Task
+-id (long)
+-name (string)
+-description (string)
+-createdAt (time)
+
+-DB Entities
+-DB Entity management
+-REST API (bussines logic layer)
+
+ProjectController
+-Получать проекты
+-Создать/Редактировать проекты
+-Удалять проект
+
+Post/Get/Put/Patch/Delete
+
+Post - Обычно отвечает за создание чего-либо/запуск какой-то логики
+Get - Обычно отвечает за получение какой-то информации
+Put - Обычно отвечает за полную замену объекта
+Patch - Обычно отвечает за обновление объекта/запуск какой-то логики
+Delete - Обычно отвечает за удаление объекта

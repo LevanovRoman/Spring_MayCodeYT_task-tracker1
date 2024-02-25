@@ -1,0 +1,20 @@
+1 notes.txt
+
+2 build.gradle
+
+3 application.yml
+
+4 store.entities
+
+5 store.repositories
+
+6 api.dto
+
+7 api.factories
+
+8 api.controllers
+
+9 api.exception
+
+10 api.controllers
+

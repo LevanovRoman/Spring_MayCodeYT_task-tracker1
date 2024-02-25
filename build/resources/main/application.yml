@@ -1,0 +1,14 @@
+---
+  server:
+    port: 8080
+
+  spring:
+    datasource:
+      url: jdbc:postgresql://localhost:5444/maycode_db
+      username: admin
+      password: admin
+      driver-class-name: org.postgresql.Driver
+
+    jpa:
+      hibernate:
+        ddl-auto: update
