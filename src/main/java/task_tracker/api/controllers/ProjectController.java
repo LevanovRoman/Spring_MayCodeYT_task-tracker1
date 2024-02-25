@@ -44,7 +44,7 @@ public class ProjectController {
 
         Stream<ProjectEntity> projectStream = optionalPrefixName
                 .map(projectRepository::streamAllByNameStartsWithIgnoreCase)
-                .orElseGet(projectRepository::streamAll);
+                .orElseGet(projectRepository::streamAllBy);
 
         return projectStream.map(projectDtoFactory::makeProjectDto)
                 .collect(Collectors.toList());
